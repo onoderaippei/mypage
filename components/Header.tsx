@@ -20,7 +20,7 @@ export default function Header() {
             <ul className="flex items-center gap-6 text-sm text-gray-700">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <Link href={item.href} className="hover:text-black">
+                  <Link href={item.href} className="transition-colors duration-200 hover:text-black">
                     {item.label}
                   </Link>
                 </li>
